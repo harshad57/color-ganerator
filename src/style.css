@@ -1,0 +1,104 @@
+<style>
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.color {
+    width: 100%;
+    height: 105px;
+    text-align: center;
+    transition: 0.1s;
+    font-family: serif;
+    border-radius: 5px;
+}
+.name {
+    font-family: "Aladin", system-ui;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.fix {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 0px 30px;
+    margin-top: 60px;
+}
+.new {
+    width: 95px;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+button {
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: "Aladin", system-ui;
+    border-radius: 5px;
+    border: 1px solid white;
+    z-index: 1;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    padding: 20px 30px;
+    background: black;
+    transition: 0.2s;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    box-shadow: 0 0 20px cyan;
+}
+button:active {
+    transform: scale(0.97);
+}
+button::before {
+    content: "";
+    background: white;
+    width: 60px;
+    z-index: -1;
+    height: 1000px;
+    position: absolute;
+}
+button:hover::before {
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    0% { background: #f5f202; transform: rotate(0deg); }
+    25% { background: #22e6f6; transform: rotate(90deg); }
+    50% { background: #fa3bf0; transform: rotate(180deg); }
+    75% { background: #ff6e00; transform: rotate(270deg); }
+    100% { background: #f5f202; transform: rotate(360deg); }
+}
+button::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    z-index: -1;
+    background: black;
+    border-radius: 5px;
+}
+
+ @media(min-width: 800px) {
+    .fix{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: grid;
+        gap: 25px 40px;
+        padding: 30px;
+        place-items: center;
+        grid-template-columns: repeat(5,1fr);
+    }
+ }
+</style>
