@@ -1,4 +1,4 @@
-live :- [Color Generator](https://colorgenerator-harshad57.vercel.app/)
+live :- [Color Generator](https://colorgenerator-harshad57.vercel.app)
 
 # Random Color Generator
 
@@ -19,4 +19,4 @@ The webpage uses JavaScript to :-
 - *Dynamic Updates* : Updates the background of the blocks and their hex codes dynamically.
 - *Event Handling* : Enhances interactivity through event listeners for the button.
 
-Check it out live :- https://colorgenerator-harshad57.vercel.app/
+Check it out live :- https://colorgenerator-harshad57.vercel.app
