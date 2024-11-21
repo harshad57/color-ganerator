@@ -13,8 +13,6 @@ A fun and interactive webpage built with html, css, and JAVASCRIPT that dynamica
 
 ## JavaScript Enhancements
 
-The webpage uses JavaScript to :-
-
 - *Generate Random Colors* : Creates colors in hex format (#RRGGBB) for each block.
 - *Dynamic Updates* : Updates the background of the blocks and their hex codes dynamically.
 - *Event Handling* : Enhances interactivity through event listeners for the button.
