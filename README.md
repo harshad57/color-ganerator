@@ -2,7 +2,7 @@ live :- [Color Generator](https://colorgenerator-harshad57.vercel.app)
 
 # Random Color Generator
 
-A fun and interactive webpage built with html, css, and JAVASCRIPT that dynamically generate random colors and displays their corresponding [hex codes](https://g.co/kgs/7PNBbmN).
+A fun and interactive webpage built with html, css, and JAVASCRIPT that dynamically generate random colors and display their corresponding [hex codes](https://g.co/kgs/7PNBbmN).
 
 ## Key Features :-
 
