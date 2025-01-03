@@ -11,7 +11,7 @@ A fun and interactive webpage built with html, css, and JAVASCRIPT that dynamica
 - *Responsive Design* : The grid adjusts seamlessly to different screen sizes.
 - *Interactive Button* : Changes label from "Generate Color" to "Change Color" on the first click.
 
-## JavaScript Enhancements
+## JavaScript Enhancements :-
 
 - *Generate Random Colors* : Creates colors in hex format (#RRGGBB) for each block.
 - *Dynamic Updates* : Updates the background of the blocks and their hex codes dynamically.
