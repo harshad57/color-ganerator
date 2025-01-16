@@ -1,5 +1,3 @@
-<style>
-
 body {
     padding: 0;
     margin: 0;
@@ -101,4 +99,3 @@ button::after {
         grid-template-columns: repeat(5,1fr);
     }
  }
-</style>
